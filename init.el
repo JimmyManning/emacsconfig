@@ -42,7 +42,7 @@
  '(custom-enabled-themes (quote (tango-dark)))
  '(package-selected-packages
    (quote
-    (plantuml-mode org org-ac bookmark+ desktop+ cl-print pp+ neotree zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
+    (plantuml-mode org org-ac desktop+ cl-print pp+ neotree zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -51,7 +51,6 @@
  )
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
-(require 'bookmark+)
 
 ;; use only one desktop
 (setq desktop-path '("~/.emacs.d/"))
